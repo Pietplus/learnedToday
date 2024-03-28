@@ -1,0 +1,14 @@
+2803024
+- how to append someting into another file in bash
+  echo "$content" | tee -a $file
+
+- how to use systemctl to start & stop service
+  systemctl start $service
+  systemctl stop $service
+
+- how to use systemctl to enable & disable service:wq
+  systemctl enable $service
+  systemctl disable $service
+
+
+
